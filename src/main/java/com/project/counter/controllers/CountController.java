@@ -45,4 +45,11 @@ public class CountController{
 		session.setAttribute("count", count);
 		return "redirect:/";
 	}
+	@RequestMapping("/2")
+	public String addTwo(HttpSession session){
+		int count = ((int) session.getAttribute("count"));
+		count += 1;
+		session.setAttribute("count", count);
+		return "redirect:/";
+	}
 }

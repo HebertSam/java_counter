@@ -18,6 +18,7 @@
 			<h1>This site has been visited ${count} times</h1>
 		</div>
 		<a href="">Count</a>
+		<a href="/2">Count Twice</a>
 		<a href="/rest">Rest</a>
 	</body>
 </html>
