@@ -17,7 +17,7 @@
 		<div>
 			<h1>This site has been visited ${count} times</h1>
 		</div>
-		<a href="">reload</a>
-		<a href="/rest">rest</a>
+		<a href="">Count</a>
+		<a href="/rest">Rest</a>
 	</body>
 </html>
